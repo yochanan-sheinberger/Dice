@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Henny+Penny&family=Merienda+One&display=swap');
+
+*{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: teal;
+    padding: 10px;
+}
+
+button {
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 6px 2px #a1a1a1;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.start-btn {
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    font-size: 40px;
+    padding: 12px;
+    background-color: #fbffa3;
+    font-family: 'Carter One', cursive;
+}
+
+.start-btn:hover {
+    background-color: #f8ff75;
+}
+
+.dice-wraper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 25vh;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.dice-wraper figure {
+    width: 270px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgb(252, 248, 188);
+}
+
+.dice-wraper p{
+    color: rgb(116, 0, 0);
+    font-size: 30px;
+    margin: 5px;
+}
+
+img {
+    width: 250px;
+    cursor: pointer;
+}
+
+header p {
+    margin: 20px;
+    font-size: 70px;
+    color: #ff3b3b;
+    width: 15%;
+    font-family: 'Henny Penny', cursive;
+}
+
+header p:first-of-type, header p:last-of-type {
+    font-size: 50px;
+    width: 35%;
+    color: rgb(248, 203, 0);
+    margin-top: 39px;
+    font-family: 'Merienda One', cursive;
+}
+
+.role, .skip {
+    width: 42%;
+    padding: 12px;
+    font-size: 40px;
+    margin: 0 20px;
+    color: white;
+    background-color: #860000;
+}
+
+.role {
+    background-color: #3b5f02;
+}
+
+.role:hover {
+    background-color: #4f8000;
+}
+
+.skip:hover {
+    background-color: #a50000;
+}
+
+.dices{
+    display: flex;
+    justify-content: center;
+}
+
+.tables {
+    background-color: rgb(121, 121, 121);
+    border-radius: 10px;
+}
+
+h2 {
+    width: 100%;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+}
+
+.tables {
+    width: 90%;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.tables > div {
+    width: 47%;
+}
+
+.tables p {
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.tables p:nth-of-type(odd){
+    width: 40%;
+}
+
+.tables p:nth-of-type(even) {
+    width: 5%;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+
+thead {
+    color: white;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(207, 207, 207);
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: rgb(167, 167, 167);
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header class="flexbox">
+            <button class="start-btn" onclick="start()">Click to Start</button>
+            <p class="player-1">player 1 </p>
+            <p> VS </p>
+            <p class="player-2"> player 2</p>
+        </header>
+
+        <section>
+            <button class="role"><span>player</span>'s role</button>
+            <button class="skip">I am Blocked</button>
+        </section>
+        <section class="dices">
+            <figure>
+                <img src="images/Alea_1.png" class="dice-1">
+            </figure>
+            <figure>
+                <img src="images/Alea_6.png" class="dice-2">
+            </figure>
+        </section>
+        <section class="tables flexbox">
+            <div class="flexbox">
+                <h2>player 1</h2>
+                <p>Quantity of doubles:</p>
+                <p class="qty">0</p>
+                <p>Total Moves:</p>
+                <p class="total">0</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Role#</th>
+                            <th>Dice #1</th>
+                            <th>Dice #2</th>
+                            <th>Total Moves</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="flexbox">
+                <h2>player 2</h2>
+                <p>Quantity of doubles:</p>
+                <p class="qty">0</p>
+                <p>Total Moves:</p>
+                <p class="total">0</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Role#</th>
+                            <th>Dice #1</th>
+                            <th>Dice #2</th>
+                            <th>Total Moves</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
